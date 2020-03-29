@@ -5,13 +5,24 @@ body {
 }
 
 body {
-  background: #000;
-  color: white;
+  background: #E5989B;
+  color: black;
   position: relative;
-  font-family: 'Ubuntu Mono',
-    monospace;
+  font-family:'Pacifico', cursive;
+  font-size:20px;
+  
 }
-
+h1{
+  color: #FFCDB2;
+  font-size:40px;
+}
+p{
+  font-family: Arial;
+  font-style: italic;
+  font-size:25px;
+  
+  
+}
 a {
   color: #019cdc;
   font-size: 12px;
@@ -22,13 +33,13 @@ a {
  of links when you "mouseover" */
 a:hover,
 a:visited:hover {
-  color: #7ac043;
+  color: purple;
 }
 
 /* ":visited" will effect the color
  of links you have previously clicked on */
 a:visited {
-  color: #f58428;
+  color: red;
 }
 
 .link-heading {
@@ -37,15 +48,15 @@ a:visited {
 }
 
 .square-one .inner {
-  background: #f58428;
+  background: #591013;
 }
 
 .square-two .inner {
-  background: #7ac043;
+  background: #FB8B24;
 }
 
 .square-three .inner {
-  background: #019cdc;
+  background: #E36414;
 }
 
 .outer {
@@ -82,8 +93,8 @@ a:visited {
 
 .wrap {
   position: relative;
-  width: 340px;
-  height: 345px;
+  width: 440px;
+  height: 445px;
   box-sizing: border-box;
   margin: 0 auto;
 }
@@ -93,9 +104,10 @@ a:visited {
   display: flex;
   height: 240px;
   width: 240px;
-  transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
+  transition-timing-function: linear;
+  transition: all 2.679s linear;
+  -webkit-transition: all 2.679s linear;
+  -moz-transition: all 2.679s linear;
 }
 
 .wrap:hover .square-one {
